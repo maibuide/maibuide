@@ -1,0 +1,310 @@
+/*
+Theme Name: dd
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dd
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+dd_wp_neu is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+body {
+    /*    background: #FFFFFF;*/
+    margin: 0;
+    font-family: "Open Sans", helvetica, arial, sans-serif;
+}
+
+#header {
+    height: 50px;
+    width: 100%;
+    /*    background: #FFFFFF;*/
+    padding: auto;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    display: none;
+    opacity: 0.7;
+}
+
+#header span {
+    font-size:28px;
+    font-weight: 100;
+    color: #ffffff;
+    width: 100%;
+    position: fixed;
+    top: 6px;
+    text-align: center;
+    font-family: 'Nova Slim';
+}
+
+#spotlight {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 729px;
+    margin: 0px auto auto auto;
+    -webkit-box-shadow: 2px 3px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 2px 3px 3px rgba(0,0,0,0.2);
+    box-shadow: 2px 3px 3px rgba(0,0,0,0.2);
+}
+
+#spotlight-title {
+    display: none;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 40%;
+}
+
+#spotlight-title p {
+    display: none;
+    font-family: Garamont, serif;
+    font-style: italic;
+    /*	color: #FFFFFF;*/
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#spotlight-title span {
+    display: none;
+    font-size: 30px;
+    font-weight: 100;
+    /*    color: #FFBA00;*/
+}
+
+#about_left_col {
+    float: left;
+    width: 39%;
+    margin-top: 80px;
+    z-index: -1;
+}
+
+
+#about_right_col {
+    float: left;
+    width: 59%;
+    margin-bottom: 50px;
+    border-left-style: solid;
+    border-left-color: lightgray;
+    border-left-width: 2px;
+}
+
+#about-ruler {
+    display: none;
+    float: left;
+    background: lightgray;
+    width: 2px;
+    height: 450px;
+
+    -webkit-box-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+}
+
+#about {
+    /*height: 320px;*/
+    margin: 80px 0 80px 0;
+}
+
+#about-title {
+    padding: 0 50px;
+    font-size:25px;
+    font-weight: 100;
+    font-family: Garamont, serif;
+    font-style: italic;
+}
+
+#about-text {
+    font-size: 14px;
+    padding: 30px 50px 0 50px;
+    /*margin-bottom: 80px;*/
+    text-align:justify;
+}
+
+#about-mobile {
+    display: none;
+}
+
+#mobile-about-title {
+    padding: 40px 0 0 0;
+    font-size:25px;
+    font-weight: 100;
+    font-family: Garamont, serif;
+    font-style: italic;
+    text-align: center;
+}
+
+#mobile-about-text {
+    font-size: 14px;
+    padding: 25px 15% 0 15%;
+    text-align: justify;
+}
+
+#wrap-profile-picture {
+    width: 100%;
+    z-index: -1;
+}
+
+#picture {
+    margin: 0 auto;
+    border-radius: 200px;
+    width: 195px;
+    height: 185px;
+    position: relative;
+}
+
+#kreis {
+    width: 185px;
+    height: 185px;
+    border-radius: 185px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#ich {
+    border-radius: 100%;
+    position: absolute;
+    left: 17px;
+    top: 17px;
+    height: 171px;
+    z-index: 3;
+
+}
+
+#ich:hover {
+    -webkit-box-shadow: 0 1px 20px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 1px 20px rgba(0,0,0,0.4);
+    box-shadow: 0 1px 20px rgba(0,0,0,0.4);
+}
+
+#get-in-touch {
+    text-align: center;
+    font-size:25px;
+    font-weight: 100;
+    font-family: Garamont, serif;
+    font-style: italic;
+}
+
+#contact-socials {
+    text-align: center;
+}
+
+.contact-social-button {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.contact-social-button:hover {
+    opacity: 0.6;
+}
+
+#footer {
+    clear: both;
+    width: 100%;
+    /*    background-color: #343434;*/
+    font-size: 12px;
+    font-family: "Open Sans", helvetica, arial, sans-serif;
+    height: 50px;
+    /*    color: #FFBA00;*/
+    text-align: center;
+    padding-top: 8px;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+#footer a {
+    display: inline-block;
+    color: lightgray;
+    text-decoration: none;
+    margin-left: 5px;
+}
+#footer p {
+    display: inline-block;
+}
+
+#impressum-link {
+    display: inline;
+}
+
+
+@media (max-width: 965px) {
+    #about_left_col {
+        float: none;
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+    #about_right_col {
+        float: none;
+        width: 100%;
+    }
+
+    #about-title {
+        text-align: center;
+        display: none;
+    }
+
+    #about-ruler {
+        height: 0;
+    }
+
+    #about-text {
+        text-align: center;
+        display: none;
+    }
+
+    #about-ruler {
+        float: none;
+    }
+
+    #about-mobile {
+        display: block;
+    }
+
+
+    #spotlight-title p {
+        display: inline;
+    }
+
+    #spotlight-title span {
+        display: block;
+    }
+}
+
+/*@media (max-width: 930px) {*/
+    /*#spotlight{*/
+        /*height: 500px;*/
+    /*}*/
+/*}*/
+
+/*@media (max-width: 750px) {*/
+    /*#spotlight{*/
+        /*height: 280px;*/
+    /*}*/
+/*}*/
+
+
+
+
+/*
+Impressum Style
+*/
+
+#impressum-body {
+    padding: 50px 70px;
+}
